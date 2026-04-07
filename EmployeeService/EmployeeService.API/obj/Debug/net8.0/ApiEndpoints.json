@@ -1,0 +1,364 @@
+[
+  {
+    "ContainingType": "EmployeeService.API.Controllers.DepartmentsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Departments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.DepartmentsController",
+    "Method": "Create",
+    "RelativePath": "api/Departments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmployeeService.Application.DTOs.Departments.CreateDepartmentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.DepartmentsController",
+    "Method": "GetById",
+    "RelativePath": "api/Departments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.DepartmentsController",
+    "Method": "Update",
+    "RelativePath": "api/Departments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "EmployeeService.Application.DTOs.Departments.UpdateDepartmentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.DepartmentsController",
+    "Method": "Delete",
+    "RelativePath": "api/Departments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.EmployeesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "departmentId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "roleId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.EmployeesController",
+    "Method": "Create",
+    "RelativePath": "api/Employees",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmployeeService.Application.DTOs.Employees.CreateEmployeeRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.EmployeesController",
+    "Method": "GetById",
+    "RelativePath": "api/Employees/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.EmployeesController",
+    "Method": "Update",
+    "RelativePath": "api/Employees/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "EmployeeService.Application.DTOs.Employees.UpdateEmployeeRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.EmployeesController",
+    "Method": "SoftDelete",
+    "RelativePath": "api/Employees/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.EmployeesController",
+    "Method": "GetByDepartment",
+    "RelativePath": "api/Employees/department/{departmentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.EmployeesController",
+    "Method": "GetByManager",
+    "RelativePath": "api/Employees/manager/{managerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "managerId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.HolidaysController",
+    "Method": "GetAll",
+    "RelativePath": "api/holidays",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.HolidaysController",
+    "Method": "Create",
+    "RelativePath": "api/holidays",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmployeeService.Application.DTOs.Holidays.CreateHolidayRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.HolidaysController",
+    "Method": "Delete",
+    "RelativePath": "api/holidays/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.LeaveTypesController",
+    "Method": "GetAll",
+    "RelativePath": "api/leavetypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.LeaveTypesController",
+    "Method": "Create",
+    "RelativePath": "api/leavetypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmployeeService.Application.DTOs.LeaveTypes.CreateLeaveTypeRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.LeaveTypesController",
+    "Method": "Update",
+    "RelativePath": "api/leavetypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "EmployeeService.Application.DTOs.LeaveTypes.UpdateLeaveTypeRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.LeaveTypesController",
+    "Method": "Delete",
+    "RelativePath": "api/leavetypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.RolesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeService.API.Controllers.RolesController",
+    "Method": "Create",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmployeeService.Application.DTOs.Roles.CreateRoleRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,12 @@
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Domain\bin\Debug\net8.0\EmployeeService.Domain.deps.json
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Domain\bin\Debug\net8.0\EmployeeService.Domain.dll
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Domain\bin\Debug\net8.0\EmployeeService.Domain.pdb
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Domain\obj\Debug\net8.0\EmployeeService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Domain\obj\Debug\net8.0\EmployeeService.Domain.AssemblyInfoInputs.cache
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Domain\obj\Debug\net8.0\EmployeeService.Domain.AssemblyInfo.cs
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Domain\obj\Debug\net8.0\EmployeeService.Domain.csproj.CoreCompileInputs.cache
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Domain\obj\Debug\net8.0\EmployeeService.Domain.sourcelink.json
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Domain\obj\Debug\net8.0\EmployeeService.Domain.dll
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Domain\obj\Debug\net8.0\refint\EmployeeService.Domain.dll
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Domain\obj\Debug\net8.0\EmployeeService.Domain.pdb
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Domain\obj\Debug\net8.0\ref\EmployeeService.Domain.dll

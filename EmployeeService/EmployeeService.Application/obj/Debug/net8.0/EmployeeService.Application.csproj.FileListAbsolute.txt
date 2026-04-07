@@ -1,0 +1,16 @@
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\bin\Debug\net8.0\EmployeeService.Application.deps.json
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\bin\Debug\net8.0\EmployeeService.Application.dll
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\bin\Debug\net8.0\EmployeeService.Application.pdb
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\bin\Debug\net8.0\EmployeeService.Domain.dll
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\bin\Debug\net8.0\EmployeeService.Domain.pdb
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\obj\Debug\net8.0\EmployeeService.Application.csproj.AssemblyReference.cache
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\obj\Debug\net8.0\EmployeeService.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\obj\Debug\net8.0\EmployeeService.Application.AssemblyInfoInputs.cache
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\obj\Debug\net8.0\EmployeeService.Application.AssemblyInfo.cs
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\obj\Debug\net8.0\EmployeeService.Application.csproj.CoreCompileInputs.cache
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\obj\Debug\net8.0\EmployeeService.Application.sourcelink.json
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\obj\Debug\net8.0\Employee.D9B3E978.Up2Date
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\obj\Debug\net8.0\EmployeeService.Application.dll
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\obj\Debug\net8.0\refint\EmployeeService.Application.dll
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\obj\Debug\net8.0\EmployeeService.Application.pdb
+D:\dotNet\StaffTrack\EmployeeService\EmployeeService.Application\obj\Debug\net8.0\ref\EmployeeService.Application.dll

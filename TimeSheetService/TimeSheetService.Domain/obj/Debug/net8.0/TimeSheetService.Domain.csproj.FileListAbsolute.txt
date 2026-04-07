@@ -1,0 +1,12 @@
+d:\dotNet\StaffTrack\TimeSheetService\TimeSheetService.Domain\bin\Debug\net8.0\TimeSheetService.Domain.deps.json
+d:\dotNet\StaffTrack\TimeSheetService\TimeSheetService.Domain\bin\Debug\net8.0\TimeSheetService.Domain.dll
+d:\dotNet\StaffTrack\TimeSheetService\TimeSheetService.Domain\bin\Debug\net8.0\TimeSheetService.Domain.pdb
+d:\dotNet\StaffTrack\TimeSheetService\TimeSheetService.Domain\obj\Debug\net8.0\TimeSheetService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+d:\dotNet\StaffTrack\TimeSheetService\TimeSheetService.Domain\obj\Debug\net8.0\TimeSheetService.Domain.AssemblyInfoInputs.cache
+d:\dotNet\StaffTrack\TimeSheetService\TimeSheetService.Domain\obj\Debug\net8.0\TimeSheetService.Domain.AssemblyInfo.cs
+d:\dotNet\StaffTrack\TimeSheetService\TimeSheetService.Domain\obj\Debug\net8.0\TimeSheetService.Domain.csproj.CoreCompileInputs.cache
+d:\dotNet\StaffTrack\TimeSheetService\TimeSheetService.Domain\obj\Debug\net8.0\TimeSheetService.Domain.sourcelink.json
+d:\dotNet\StaffTrack\TimeSheetService\TimeSheetService.Domain\obj\Debug\net8.0\TimeSheetService.Domain.dll
+d:\dotNet\StaffTrack\TimeSheetService\TimeSheetService.Domain\obj\Debug\net8.0\refint\TimeSheetService.Domain.dll
+d:\dotNet\StaffTrack\TimeSheetService\TimeSheetService.Domain\obj\Debug\net8.0\TimeSheetService.Domain.pdb
+d:\dotNet\StaffTrack\TimeSheetService\TimeSheetService.Domain\obj\Debug\net8.0\ref\TimeSheetService.Domain.dll
