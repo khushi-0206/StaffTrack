@@ -110,3 +110,156 @@ Client has been authenticated for path '/gateway/leaves' by 'AuthenticationTypes
 2026-04-07 12:58:09.580 +05:30 [INF] End processing HTTP request after 46.8287ms - 200
 2026-04-07 12:58:09.647 +05:30 [INF] HTTP GET /swagger/docs/v1/timesheet responded 200 in 113.8118 ms
 2026-04-07 12:58:09.650 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/docs/v1/timesheet - 200 null null 119.9493ms
+2026-04-07 13:12:30.734 +05:30 [INF] User profile is available. Using 'C:\Users\ENVY\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-07 13:12:31.034 +05:30 [INF] Now listening on: https://localhost:7110
+2026-04-07 13:12:31.038 +05:30 [INF] Now listening on: http://localhost:5089
+2026-04-07 13:12:31.299 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 13:12:31.301 +05:30 [INF] Hosting environment: Development
+2026-04-07 13:12:31.302 +05:30 [INF] Content root path: D:\dotNet\StaffTrack\APIGateway
+2026-04-07 13:12:31.897 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/index.html - null null
+2026-04-07 13:12:32.432 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 311.6517 ms
+2026-04-07 13:12:32.468 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/index.html - 200 null text/html;charset=utf-8 574.1559ms
+2026-04-07 13:12:32.478 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7110/_vs/browserLink - null null
+2026-04-07 13:12:32.478 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-07 13:12:32.511 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 33.2429ms
+2026-04-07 13:12:32.562 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7110/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.3783ms
+2026-04-07 13:12:33.471 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/docs/v1/auth - null null
+2026-04-07 13:12:33.671 +05:30 [INF] Start processing HTTP request GET https://localhost:7270/swagger/v1/swagger.json
+2026-04-07 13:12:33.679 +05:30 [INF] Sending HTTP request GET https://localhost:7270/swagger/v1/swagger.json
+2026-04-07 13:12:34.585 +05:30 [INF] Received HTTP response headers after 896.9507ms - 200
+2026-04-07 13:12:34.612 +05:30 [INF] End processing HTTP request after 949.7091ms - 200
+2026-04-07 13:12:34.966 +05:30 [INF] HTTP GET /swagger/docs/v1/auth responded 200 in 1379.1707 ms
+2026-04-07 13:12:34.975 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/docs/v1/auth - 200 null null 1503.6641ms
+2026-04-07 13:12:50.965 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/docs/v1/notification - null null
+2026-04-07 13:12:50.971 +05:30 [INF] Start processing HTTP request GET https://localhost:5005/swagger/v1/swagger.json
+2026-04-07 13:12:50.972 +05:30 [INF] Sending HTTP request GET https://localhost:5005/swagger/v1/swagger.json
+2026-04-07 13:12:55.068 +05:30 [ERR] HTTP GET /swagger/docs/v1/notification responded 500 in 4100.0499 ms
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5005)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at MMLib.SwaggerForOcelot.Repositories.DownstreamSwaggerDocsRepository.GetSwaggerJsonAsync(RouteOptions route, SwaggerEndPointOptions endPoint, String docsVersion)
+   at MMLib.SwaggerForOcelot.Middleware.SwaggerForOcelotMiddleware.Invoke(HttpContext context, ISwaggerEndPointProvider swaggerEndPointRepository, IDownstreamSwaggerDocsRepository downstreamSwaggerDocs)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-04-07 13:12:55.111 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5005)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at MMLib.SwaggerForOcelot.Repositories.DownstreamSwaggerDocsRepository.GetSwaggerJsonAsync(RouteOptions route, SwaggerEndPointOptions endPoint, String docsVersion)
+   at MMLib.SwaggerForOcelot.Middleware.SwaggerForOcelotMiddleware.Invoke(HttpContext context, ISwaggerEndPointProvider swaggerEndPointRepository, IDownstreamSwaggerDocsRepository downstreamSwaggerDocs)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-04-07 13:12:55.123 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/docs/v1/notification - 500 null text/plain; charset=utf-8 4158.3836ms
+2026-04-07 13:12:58.169 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/docs/v1/leave - null null
+2026-04-07 13:12:58.174 +05:30 [INF] Start processing HTTP request GET https://localhost:7280/swagger/v1/swagger.json
+2026-04-07 13:12:58.176 +05:30 [INF] Sending HTTP request GET https://localhost:7280/swagger/v1/swagger.json
+2026-04-07 13:12:58.214 +05:30 [INF] Received HTTP response headers after 35.6769ms - 200
+2026-04-07 13:12:58.215 +05:30 [INF] End processing HTTP request after 41.4183ms - 200
+2026-04-07 13:12:58.309 +05:30 [INF] HTTP GET /swagger/docs/v1/leave responded 200 in 136.6979 ms
+2026-04-07 13:12:58.311 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/docs/v1/leave - 200 null null 141.96ms
+2026-04-07 13:13:01.155 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/docs/v1/timesheet - null null
+2026-04-07 13:13:01.158 +05:30 [INF] Start processing HTTP request GET https://localhost:7290/swagger/v1/swagger.json
+2026-04-07 13:13:01.160 +05:30 [INF] Sending HTTP request GET https://localhost:7290/swagger/v1/swagger.json
+2026-04-07 13:13:01.198 +05:30 [INF] Received HTTP response headers after 37.1692ms - 200
+2026-04-07 13:13:01.200 +05:30 [INF] End processing HTTP request after 41.4033ms - 200
+2026-04-07 13:13:01.268 +05:30 [INF] HTTP GET /swagger/docs/v1/timesheet responded 200 in 109.7936 ms
+2026-04-07 13:13:01.271 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/docs/v1/timesheet - 200 null null 115.9703ms
+2026-04-07 13:13:04.358 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/docs/v1/auth - null null
+2026-04-07 13:13:04.361 +05:30 [INF] Start processing HTTP request GET https://localhost:7270/swagger/v1/swagger.json
+2026-04-07 13:13:04.362 +05:30 [INF] Sending HTTP request GET https://localhost:7270/swagger/v1/swagger.json
+2026-04-07 13:13:04.370 +05:30 [INF] Received HTTP response headers after 6.7313ms - 200
+2026-04-07 13:13:04.371 +05:30 [INF] End processing HTTP request after 10.2063ms - 200
+2026-04-07 13:13:04.379 +05:30 [INF] HTTP GET /swagger/docs/v1/auth responded 200 in 18.3828 ms
+2026-04-07 13:13:04.382 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/docs/v1/auth - 200 null null 24.6171ms
+2026-04-07 13:13:06.184 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/docs/v1/notification - null null
+2026-04-07 13:13:06.187 +05:30 [INF] Start processing HTTP request GET https://localhost:5005/swagger/v1/swagger.json
+2026-04-07 13:13:06.188 +05:30 [INF] Sending HTTP request GET https://localhost:5005/swagger/v1/swagger.json
+2026-04-07 13:13:10.258 +05:30 [ERR] HTTP GET /swagger/docs/v1/notification responded 500 in 4071.4363 ms
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5005)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at MMLib.SwaggerForOcelot.Repositories.DownstreamSwaggerDocsRepository.GetSwaggerJsonAsync(RouteOptions route, SwaggerEndPointOptions endPoint, String docsVersion)
+   at MMLib.SwaggerForOcelot.Middleware.SwaggerForOcelotMiddleware.Invoke(HttpContext context, ISwaggerEndPointProvider swaggerEndPointRepository, IDownstreamSwaggerDocsRepository downstreamSwaggerDocs)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-04-07 13:13:10.268 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:5005)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at MMLib.SwaggerForOcelot.Repositories.DownstreamSwaggerDocsRepository.GetSwaggerJsonAsync(RouteOptions route, SwaggerEndPointOptions endPoint, String docsVersion)
+   at MMLib.SwaggerForOcelot.Middleware.SwaggerForOcelotMiddleware.Invoke(HttpContext context, ISwaggerEndPointProvider swaggerEndPointRepository, IDownstreamSwaggerDocsRepository downstreamSwaggerDocs)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-04-07 13:13:10.275 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/docs/v1/notification - 500 null text/plain; charset=utf-8 4091.1731ms
