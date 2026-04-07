@@ -1,0 +1,12 @@
+D:\dotNet\StaffTrack\NotificationService.Domain\bin\Debug\net8.0\NotificationService.Domain.deps.json
+D:\dotNet\StaffTrack\NotificationService.Domain\bin\Debug\net8.0\NotificationService.Domain.dll
+D:\dotNet\StaffTrack\NotificationService.Domain\bin\Debug\net8.0\NotificationService.Domain.pdb
+D:\dotNet\StaffTrack\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNet\StaffTrack\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.AssemblyInfoInputs.cache
+D:\dotNet\StaffTrack\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.AssemblyInfo.cs
+D:\dotNet\StaffTrack\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.csproj.CoreCompileInputs.cache
+D:\dotNet\StaffTrack\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.sourcelink.json
+D:\dotNet\StaffTrack\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.dll
+D:\dotNet\StaffTrack\NotificationService.Domain\obj\Debug\net8.0\refint\NotificationService.Domain.dll
+D:\dotNet\StaffTrack\NotificationService.Domain\obj\Debug\net8.0\NotificationService.Domain.pdb
+D:\dotNet\StaffTrack\NotificationService.Domain\obj\Debug\net8.0\ref\NotificationService.Domain.dll
