@@ -1,6 +1,0 @@
-{
-  "EmployeeService.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "d:\\dotNet\\StaffTrack\\EmployeeService\\EmployeeService.API",
-  "EmployeeService.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "d:\\dotNet\\StaffTrack\\EmployeeService\\EmployeeService.Application",
-  "EmployeeService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "d:\\dotNet\\StaffTrack\\EmployeeService\\EmployeeService.Domain",
-  "EmployeeService.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "d:\\dotNet\\StaffTrack\\EmployeeService\\EmployeeService.Infrastructure"
-}

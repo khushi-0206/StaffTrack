@@ -1,6 +1,0 @@
-{
-  "TimeSheetService.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\dotNet\\StaffTrack\\TimeSheetService\\TimeSheetService.API",
-  "TimeSheetService.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\dotNet\\StaffTrack\\TimeSheetService\\TimeSheetService.Application",
-  "TimeSheetService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\dotNet\\StaffTrack\\TimeSheetService\\TimeSheetService.Domain",
-  "TimeSheetService.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\dotNet\\StaffTrack\\TimeSheetService\\TimeSheetService.Infrastructure"
-}

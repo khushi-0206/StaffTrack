@@ -1,6 +1,0 @@
-@LeaveService.API_HostAddress = http://localhost:5159
-
-GET {{LeaveService.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
